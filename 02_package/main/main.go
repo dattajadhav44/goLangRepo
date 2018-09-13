@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"GolangTraining/02_package/stringutil"
-	"GolangTraining/02_package/Thisisapack"
+	"GolangProject/02_package/stringutil"
+	"GolangProject/02_package/Thisisapack"
 )
 
 func main() {
