@@ -6,15 +6,8 @@ func Reverse(s string) string {
 	return ReverseTwo(s)
 }
 
+//Get the string
 func GetString(m string) string {
     return m
 }
 
-/*
-go build
-	go build reverse.go reverseTwo.go
- 	won't produce an output file.
-
-go install
- 	will place the package inside the pkg directory of the workspace.
-*/
