@@ -1,14 +1,15 @@
-package main
+package main 
 
 import "fmt"
 
 func main() {
-	switch "Jenny" {
-	case "Tim", "Jenny":
-		fmt.Println("Wassup Tim, or, err, Jenny")
-	case "Marcus", "Medhi":
-		fmt.Println("Both of your names start with M")
-	case "Julian", "Sushant":
-		fmt.Println("Wassup Julian / Sushant")
+	switch "Virat" { 
+case "Mahi", "Sachin":
+	fmt.Println("Whats up Sachin or Mahi")
+case "Dravid", "Virat":
+	fmt.Println("Whats up Virat or Dravid")
+case "Rohit", "Shikhar":
+	fmt.Println("Whats up Rohit, or, Shikhar")
 	}
 }
+

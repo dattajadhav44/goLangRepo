@@ -4,25 +4,19 @@ import "fmt"
 
 func main() {
 
-	myFriendsName := "Mar"
-
+	myMatchingCase := "TestCase"
 	switch {
-	case len(myFriendsName) == 2:
-		fmt.Println("Wassup my friend with name of length 2")
-	case myFriendsName == "Tim":
-		fmt.Println("Wassup Tim")
-	case myFriendsName == "Jenny":
-		fmt.Println("Wassup Jenny")
-	case myFriendsName == "Marcus", myFriendsName == "Medhi":
-		fmt.Println("Your name is either Marcus or Medhi")
-	case myFriendsName == "Julian":
-		fmt.Println("Wassup Julian")
-	case myFriendsName == "Sushant":
-		fmt.Println("Wassup Sushant")
+	case len(myMatchingCase) == 4:
+		fmt.Println("The lenght is matched")
+	case myMatchingCase == "Sehwag":
+		fmt.Println("This is a viru")
+	case myMatchingCase == "GoLang":
+		fmt.Println("This is a go language")
 	default:
-		fmt.Println("nothing matched; this is the default")
+		fmt.Println("Nothing matched, This is a default")
 	}
 }
+
 
 /*
   expression not needed
