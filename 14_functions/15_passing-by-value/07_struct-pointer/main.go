@@ -14,7 +14,7 @@ func main() {
 
 	changeMe(&c1)
 
-	fmt.Println(c1)       // {Rocky 44}
+	fmt.Println(c1)       // {Bhau 44}
 	fmt.Println(&c1.name) // 0x8201e4120
 }
 
